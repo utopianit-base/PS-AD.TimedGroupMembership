@@ -10,7 +10,7 @@
   import-module activedirectory
  
  .Example
-  See TGM_Test.ps1
+  See TGM_Examples.ps1
 #>
 
 
@@ -62,7 +62,7 @@ function Get-ADTGMStatus {
 function Set-ADTGMPAMEnable {
     [CmdletBinding(
     SupportsShouldProcess=$True,
-    ConfirmImpact=’High’
+    ConfirmImpact=â€™Highâ€™
     )]param ()
 
     # Get domain name information
